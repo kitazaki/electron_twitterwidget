@@ -1,0 +1,23 @@
+{
+  "name": "TwitterWidget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd src&&npm install",
+    "start": "electron ./src",
+    "build-macOS": "electron-packager ./src TwitrerWidet --platform=darwin --arch=x64 --overwrite",
+    "build-windows": "electron-packager ./src TwitterWidget --platform=win32 --arch=x64 --overwrite",
+    "build-linux": "electron-packager ./src TwitterWidget --platform=linux --arch=x64 --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.11",
+    "electron-packager": "^12.2.0"
+  },
+  "dependencies": {
+    "milkcocoa": "^0.7.0"
+  }
+}
