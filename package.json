@@ -1,7 +1,8 @@
 {
   "name": "TwitterWidget",
   "version": "1.0.0",
-  "description": "",
+  "description": "TwitterWidget",
+  "repository": "TwitterWidget",
   "main": "index.js",
   "scripts": {
     "postinstall": "cd src&&npm install",
