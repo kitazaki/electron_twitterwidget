@@ -18,6 +18,7 @@
     "electron-packager": "^12.2.0"
   },
   "dependencies": {
+    "jquery": "^3.3.1",
     "milkcocoa": "^0.7.0"
   }
 }
