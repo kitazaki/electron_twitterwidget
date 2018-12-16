@@ -1,7 +1,8 @@
 {
   "name": "TwitterWidget",
   "version": "1.0.0",
-  "description": "",
+  "description": "TwitterWidget",
+  "repository": "TwitterWidget",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.1.3",
+    "popper.js": "^1.14.1",
     "jquery": "^3.3.1",
     "milkcocoa": "^0.7.0",
     "request": "^2.88.0",
